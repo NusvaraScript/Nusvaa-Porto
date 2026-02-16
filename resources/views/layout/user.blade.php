@@ -10,11 +10,9 @@
 
 <body class="antialiased selection:bg-green-500 selection:text-black">
     @include('components.page-comps.navbar')
-
     <main>
         @yield('content', '<h1>Ini adalah halaman Website Saya</h1>')
     </main>
-
     @include('components.page-comps.footer')
 </body>
 
