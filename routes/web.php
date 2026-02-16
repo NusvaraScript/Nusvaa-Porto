@@ -3,17 +3,17 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('pages.home');
 });
 Route::get('/projects', function () {
-    return view('projects');
+    return view('pages.projects');
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('pages.about');
 });
 Route::get('/blog', function () {
-    return view('blog');
+    return view('pages.blog');
 });
 Route::get('/contact', function () {
-    return view('contact');
+    return view('pages.contact');
 });
