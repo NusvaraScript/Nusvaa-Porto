@@ -13,4 +13,4 @@ Route::get('/about', function () {
     return view('pages.about');
 });
 Route::get('/blog', [BlogController::class, 'index']);
-Route::post('/contact', [ContactController::class, 'index']);
+Route::get('/contact', [ContactController::class, 'index']);
