@@ -7,10 +7,10 @@ use App\Http\Controllers\ProjectsController;
 
 Route::get('/home', function () {
     return view('pages.home');
-});
-Route::get('/projects', [ProjectsController::class, 'index']);
+})->name('home');
+Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
 Route::get('/about', function () {
     return view('pages.about');
-});
-Route::get('/blog', [BlogController::class, 'index']);
-Route::get('/contact', [ContactController::class, 'index']);
+})->name('about');
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');

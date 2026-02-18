@@ -9,9 +9,9 @@
             </div>
             <div class="flex flex-col space-y-2">
                 <h3 class="text-white font-semibold mb-2">Tautan Utama</h3>
-                <a href="/home">Beranda</a>
-                <a href="/projects">Projek Saya</a>
-                <a href="/blog">Blog Saya</a>
+                <a href="{{ route('home') }}" class="hover:text-blue-500">> Beranda</a>
+                <a href="{{ route('about') }}" class="hover:text-blue-500">> Projek Saya</a>
+                <a href="{{ route('blog') }}" class="hover:text-blue-500">> Blog Saya</a>
             </div>
             <div>
                 <h3 class="text-white font-semibold mb-2">Kontak</h3>
