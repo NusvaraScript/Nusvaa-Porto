@@ -19,7 +19,9 @@
     <hr class="border-gray-200 border-t-2">
     <div class="bg-blue-900 p-6 text-white">
         <p class="text-sm opacity-90">Ada pertanyaan?</p>
-        <h4 class="font-bold mb-4">Yuk, ngobrol di LinkedIn!</h4>
-        <a href="#" class="inline-block bg-white text-black px-4 py-2 rounded font-medium text-sm">Follow Me</a>
+        <h4 class="font-bold mb-4">Ayo, ngobrol di Discord!</h4>
+        <a href="#"
+            class="inline-block bg-white text-black hover:bg-gray-300 transition px-4 py-2 rounded font-medium text-sm">Contact
+            Me</a>
     </div>
 </aside>

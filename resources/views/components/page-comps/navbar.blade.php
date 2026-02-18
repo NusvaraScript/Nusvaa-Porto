@@ -12,7 +12,8 @@
                 <a href="{{ route('projects')}}" class="hover:text-blue-600 transition">Projek Saya</a>
                 <a href="{{ route('blog') }}" class="hover:text-blue-600 transition">Blog</a>
                 <a href="{{ route('contact') }}"
-                    class="px-4 py-2 bg-blue-900 text-white rounded-lg hover:bg-blue-700 transition">Kontak Saya</a>
+                    class="px-4 py-2 bg-white text-black rounded-lg hover:bg-gray-300 transition">Kontak
+                    Saya</a>
             </div>
         </div>
     </div>
