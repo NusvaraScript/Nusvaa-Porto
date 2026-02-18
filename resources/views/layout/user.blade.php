@@ -11,11 +11,16 @@
 
 <body class="antialiased selection:bg-green-500">
     @include('components.page-comps.navbar')
-    <main>
-        <div>
-            @yield('content', '<h1>Ini adalah halaman Website Saya</h1>')
-        </div>
+    <main class="flex flex-col md:flex-row gap-6">
+        @if (Route::is('blog.*') || Route::is('projects'))
         @include('components.page-comps.sidebar')
+        @endif
+
+        <div class="flex-1 w-full">
+            @include('components.page-comps.hero')
+            @yield('content')
+            @include('components.page-comps.cta')
+        </div>
     </main>
     @include('components.page-comps.footer')
 </body>
