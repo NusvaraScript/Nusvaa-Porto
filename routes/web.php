@@ -5,7 +5,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ProjectsController;
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('pages.home');
 });
 Route::get('/projects', [ProjectsController::class, 'index']);
