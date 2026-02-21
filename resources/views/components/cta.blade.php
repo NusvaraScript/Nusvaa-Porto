@@ -4,7 +4,7 @@
         <h1 class="text-3xl text-bold mt-2">Punya Projek Baru?</h1>
         <p class="text-sm my-4">Saya terbuka untuk project freelance, kolaborasi, atau sekedar ngobrol tentang sesuatu.
         </p>
-        <div>
+        <div class="flex justify-center">
             <x-button variant="solid" text="Hubungi Saya"></x-button>
         </div>
     </div>
