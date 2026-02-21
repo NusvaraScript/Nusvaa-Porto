@@ -1,4 +1,4 @@
-<aside class="w-full md:w-64 space-y-8 bg-gray-900">
+<aside class="w-full md:w-64 space-y-8 bg-[#0d1117] border-r border-gray-200">
     <div class="p-6 text-white">
         <h3 class="font-semibold mb-4">Cari Artikel</h3>
         <input type="text" placeholder="Ketik sesuatu..."
@@ -16,12 +16,11 @@
                     <span>(8)</span></a></li>
         </ul>
     </div>
-    <hr class="border-gray-200 border-t-2">
-    <div class="bg-blue-900 p-6 text-white">
+    <div class="bg-white p-6 text-black">
         <p class="text-sm opacity-90">Ada pertanyaan?</p>
         <h4 class="font-bold mb-4">Ayo, ngobrol di Discord!</h4>
         <a href="#"
-            class="inline-block bg-white text-black hover:bg-gray-300 transition px-4 py-2 rounded font-medium text-sm">Contact
+            class="inline-block bg-black text-white hover:bg-gray-300 transition px-4 py-2 rounded font-medium text-sm">Contact
             Me</a>
     </div>
 </aside>

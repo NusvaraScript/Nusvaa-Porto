@@ -5,6 +5,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ProjectsController;
 
+Route::redirect('/', '/home');
 Route::get('/home', function () {
     return view('pages.home');
 })->name('home');

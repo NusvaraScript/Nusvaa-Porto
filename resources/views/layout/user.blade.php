@@ -10,25 +10,19 @@
 </head>
 
 <body class="antialiased selection:bg-blue-500">
-    @include('components.page-comps.navbar')
+    <x-bg></x-bg>
+
+    @include('components.navbar')
     <main class="flex flex-col md:flex-row gap-6">
         @if (Route::is('blog') || Route::is('projects'))
-        @include('components.page-comps.sidebar')
+        @include('components.sidebar')
         @endif
 
         <div class="flex-1 w-full">
-            @if (!Route::is('blog') && !Route::is('projects'))
-            @include('components.page-comps.hero')
-            @endif
-
             @yield('content')
-
-            @if (!Route::is('blog') && !Route::is('projects'))
-            @include('components.page-comps.cta')
-            @endif
         </div>
     </main>
-    @include('components.page-comps.footer')
+    @include('components.footer')
 </body>
 
 </html>
