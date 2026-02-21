@@ -10,8 +10,9 @@
                 <x-button route="{{ route('contact') }}" variant="outline" text="Hubungi Saya"></x-button>
             </div>
         </x-hero>
+
         <x-section section="About Me"
-            title="Saya adalah sebuah web developer dan memiliki sedikit pengalaman di bidang machine learning"
+            title="Saya adalah sebuah web developer dan memiliki sedikit pengalaman di bidang machine learning. Saya tertarik dan memiliki passion di bidang teknologi."
             description="Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit.">
             <div class="flex space-x-4 items-center">
                 <x-button variant="outline" text="PHP"></x-button>
@@ -24,8 +25,12 @@
         </x-section>
         <x-section class="text-center" section="skills" title="Tech yang saya kuasasi"
             description="Tools dan teknolosi yang saya gunakan pada project saya.">
-
+            <div class="flex flex-row flex-wrap justify-center">
+                <x-card title="Laravel" description="Framework PHP untuk membuat aplikasi web."></x-card>
+            </div>
         </x-section>
+
+        <x-cta></x-cta>
     </div>
 </section>
 @endsection
