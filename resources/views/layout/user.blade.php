@@ -19,7 +19,14 @@
         @endif
 
         <div class="flex-1 w-full">
+            @if(View::hasSection('content'))
             @yield('content')
+            @else
+            <div class="flex flex-col items-center justify-center min-h-screen text-center px-6 ">
+                <h1 class="text-3xl font-bold text-white mb-2">Work in Progress</h1>
+                <p class="text-gray-400 text-sm">Halaman ini lagi dalam pengerjaan. Nantikan updatenya!</p>
+            </div>
+            @endif
         </div>
     </main>
     @include('components.footer')
