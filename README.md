@@ -32,7 +32,9 @@ I built this project to:
 ---
 
 🖼 Preview
+
 I havent completed the website yet
+
 💻 Desktop
 
 <img src="preview/desktop.png" width="800">
