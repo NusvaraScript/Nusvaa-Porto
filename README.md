@@ -1,59 +1,126 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🌐 Nusvaa Porto
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+  Personal portfolio website built to showcase my projects, skills, and growth as a developer.
+</p><p align="center">
+  <img src="https://img.shields.io/github/stars/NusvaraScript/Nusvaa-Porto?style=flat-square">
+  <img src="https://img.shields.io/github/last-commit/NusvaraScript/Nusvaa-Porto?style=flat-square">
+  <img src="https://img.shields.io/github/license/NusvaraScript/Nusvaa-Porto?style=flat-square">
+</p>---
 
-## About Laravel
+👋 About Me
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Hi! I'm Yusuf (NusvaraScript) 👨‍💻
+I enjoy building web applications, learning new technologies, and exploring creative solutions in software development.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This portfolio is a representation of my journey, skills, and projects.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+🚀 About This Project
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Nusvaa Porto is my personal portfolio website built using Laravel.
+It is designed to present my work, technical skills, and profile in a clean and modern interface.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+I built this project to:
 
-## Laravel Sponsors
+- showcase my projects
+- strengthen my Laravel & frontend skills
+- create a professional online presence
+- practice clean UI & responsive design
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+🖼 Preview
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+💻 Desktop
 
-## Contributing
+<img src="preview/desktop.png" width="800">📱 Mobile
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img src="preview/mobile.png" width="300">«(Replace with your own screenshots)»
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+✨ Features
 
-## Security Vulnerabilities
+✔ Responsive design
+✔ Project showcase
+✔ Skills & tech stack section
+✔ Modern & clean layout
+✔ Fast performance with Vite
+✔ Easy to customize
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+🛠 Tech Stack
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+⚙ Backend
+
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>🎨 Frontend
+
+<img src="https://img.shields.io/badge/Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>🎨 Styling
+
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>📦 Tools & Build
+
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white"/>🗄 Database
+
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>---
+
+⚙ Installation
+
+```
+git clone https://github.com/NusvaraScript/Nusvaa-Porto.git
+cd Nusvaa-Porto
+
+composer install
+npm install
+
+cp .env.example .env
+php artisan key:generate
+```
+
+Configure your database in ".env", then:
+
+```
+php artisan migrate
+npm run dev
+php artisan serve
+```
+
+---
+
+🎯 Why I Built This
+
+This project reflects my:
+
+- passion for web development
+- interest in clean UI & UX
+- dedication to continuous learning
+- growth in Laravel & modern tooling
+
+---
+
+📌 Future Improvements
+
+- The rest of the websites
+- Dark mode
+- CMS dashboard
+- Contact form integration
+- SEO optimization
+
+---
+
+📬 Connect With Me
+
+- GitHub: https://github.com/NusvaraScript
+- Portfolio: (Haven't deployed it yet)
+
+---
+
+⭐ If you like this project, feel free to star it!
