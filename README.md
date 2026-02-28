@@ -32,9 +32,9 @@ I built this project to:
 ---
 
 🖼 Preview
-
-💻 Desktop
 I havent completed the website yet
+💻 Desktop
+
 <img src="preview/desktop.png" width="800">
 
 📱 Mobile
@@ -80,7 +80,9 @@ I havent completed the website yet
 
 🗄 Database
 
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>---
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+
+---
 
 ⚙ Installation
 
