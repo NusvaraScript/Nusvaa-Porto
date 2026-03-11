@@ -3,15 +3,18 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogController;
-use App\Http\Controllers\ProjectsController;
+use App\Http\Controllers\ProjectController;
 
 Route::redirect('/', '/home');
 Route::get('/home', function () {
-    return view('pages.home');
+    return view('pages.home.index');
 })->name('home');
-Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
+
+Route::resource('/projects', ProjectController::class);
+
 Route::get('/about', function () {
-    return view('pages.about');
+    return view('pages.about.index');
 })->name('about');
-Route::get('/blog', [BlogController::class, 'index'])->name('blog');
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+
+Route::resource('/blog', BlogController::class);
+Route::resource('/contact', ContactController::class);
