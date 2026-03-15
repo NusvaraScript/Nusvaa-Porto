@@ -36,7 +36,9 @@ default => ''
         <img src="{{ asset($image) }}" alt="{{ $title }}"
             class="w-full h-full object-cover hover:scale-105 transition duration-500">
         @else
-        <div class="w-full h-full flex items-center justify-center text-4xl text-blue-500">[{{ $title }}]</div>
+        <div class="w-full h-full flex items-center justify-center text-4lg md:text-2xl lg:text-4xl text-blue-500">[{{
+            $title }}]
+        </div>
         @endif
     </div>
     <div class="p-6 flex flex-col flex-1 bg-black">
