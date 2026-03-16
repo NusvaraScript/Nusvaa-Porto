@@ -38,7 +38,7 @@
 
 {{-- Mobile Sidebar --}}
 <div id="mobile-menu"
-    class="fixed top-0 right-0 h-full w-72 bg-black border-l border-white z-50 transform translate-x-full transition-transform duration-300 flex flex-col">
+    class="fixed top-0 right-0 h-full w-76 bg-black border-l border-white z-50 transform translate-x-full transition-transform duration-300 flex flex-col">
 
     {{-- Header sidebar --}}
     <div class="flex items-center justify-between px-6 py-5 border-b border-gray-800">
