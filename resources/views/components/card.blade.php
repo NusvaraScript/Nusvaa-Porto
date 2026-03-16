@@ -3,7 +3,7 @@
 'title' => '',
 'description' => '',
 'logo' => '', {{-- Untuk devicon logo --}}
-'level' => '', {{-- Newbie, Expert, Intermediate --}}
+'level' => '', {{-- Newbie, Advanced, Intermediate --}}
 'image' => '', {{-- Untuk gambar di tipe project --}}
 'tags' => [], {{-- Tags untuk di tipe project --}}
 'url' => '#', {{-- URL untuk tipe project --}}
@@ -12,7 +12,7 @@
 
 @php
 $dotColor = match($level) {
-'Expert' => 'bg-green-500',
+'Advanced' => 'bg-green-500',
 'Intermediate' => 'bg-yellow-500',
 'Newbie' => 'bg-blue-500',
 default => ''
@@ -20,6 +20,7 @@ default => ''
 @endphp
 
 <div class="rounded-lg border border-gray-500 hover:border-white transition text-white overflow-hidden">
+    {{-- Basic Card --}}
     @if ($type == 'basic')
     <div class="p-6 flex flex-col flex-1 bg-black">
         <i class="{{ $logo }}" style="font-size: 50px"></i>
@@ -30,6 +31,7 @@ default => ''
             <span class="text-xs text-gray-400">{{ $level }}</span>
         </div>
     </div>
+    {{-- Detailed Card --}}
     @elseif ($type == 'detail')
     <div class="w-full aspect-video bg-black border-b border-gray-500 overflow-hidden">
         @if ($image)

@@ -3,8 +3,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {{-- LEFT: Info + Contact --}}
             <div>
-                <h2 class="text-white text-xl font-bold mb-4">Nusvaa.</h2>
-                <p class="text-sm leading-relaxed">Welcome to my portfolio website.</p>
+                <h2 class="text-white text-xl font-bold mb-4">Nusvaa<span class="text-blue-500">.</span></h2>
+                <p class="text-sm leading-relaxed">Welcome to my personal website.</p>
                 <div class="flex space-x-4 mt-4 text-2xl">
                     {{-- GitHub --}}
                     <a href="https://github.com/NusvaraScript" class="hover:text-white transition">

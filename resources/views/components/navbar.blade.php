@@ -11,7 +11,7 @@
             <div class="hidden md:flex items-center space-x-8 text-white">
                 <a href="{{ route('home') }}" class="text-blue-500 hover:underline">[Home]</a>
                 <a href="{{ route('about') }}" class="text-blue-500 hover:underline">[About]</a>
-                <a href="{{ route('projects.index') }}" class="text-blue-500 hover:underline">[My Projects]</a>
+                <a href="{{ route('projects.index') }}" class="text-blue-500 hover:underline">[Projects]</a>
                 <a href="{{ route('blog.index') }}" class="text-blue-500 hover:underline">[Blog]</a>
                 <x-button route="{{ route('contact.index') }}" variant="solid" text="Contact Me"></x-button>
             </div>
@@ -42,7 +42,7 @@
 
     {{-- Header sidebar --}}
     <div class="flex items-center justify-between px-6 py-5 border-b border-gray-800">
-        <span class="text-white font-bold text-xl" style="font-family:monospace">Nusvaa<span
+        <span class="text-white font-bold text-2xl" style="font-family:monospace">Nusvaa<span
                 class="text-blue-500">.</span></span>
         <button onclick="toggleMenu()" class="text-gray-400 hover:text-white transition">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -55,21 +55,23 @@
     <div class="flex flex-col px-4 py-6 gap-1 flex-1">
         <a href="{{ route('home') }}"
             class="flex items-center gap-3 px-4 py-3 rounded-xl text-blue-500 hover:underline text-sm">
-            > [ Home ]
+            [ Home Page ]
         </a>
         <a href="{{ route('about') }}"
             class="flex items-center gap-3 px-4 py-3 rounded-xl text-blue-500 hover:underline text-sm">
-            > [ About ]
+            [ About Me ]
         </a>
         <a href="{{ route('projects.index') }}"
             class="flex items-center gap-3 px-4 py-3 rounded-xl text-blue-500 hover:underline text-sm">
-            > [ My Projects ]
+            [ My Projects ]
         </a>
         <a href="{{ route('blog.index') }}"
             class="flex items-center gap-3 px-4 py-3 rounded-xl text-blue-500 hover:underline text-sm">
-            > [ Blog ]
+            [ Blog Post ]
         </a>
-
+        <p class="text-xs text-center text-gray-400 my-4 leading-relaxed">
+            "Face the Fear, Build the Future."
+        </p>
         <div class="mt-auto pt-6 border-t border-gray-800">
             <a href="{{ route('contact.index') }}"
                 class="flex items-center justify-center gap-2 w-full px-4 py-3 bg-white text-black rounded-xl font-semibold text-sm hover:bg-gray-200 transition">
