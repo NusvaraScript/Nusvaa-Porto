@@ -1,7 +1,7 @@
 {{-- Grid — bergerak pelan --}}
 <div class="fixed inset-0 pointer-events-none z-0" style="
-    background-image: linear-gradient(rgba(255,255,255,0.09) 1px, transparent 1px),
-                      linear-gradient(90deg, rgba(255,255,255,0.09) 1px, transparent 1px);
+    background-image: linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
     background-size: 60px 60px;
     opacity: 0.3;
     animation: gridMove 8s linear infinite;">

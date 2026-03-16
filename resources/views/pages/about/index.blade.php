@@ -10,8 +10,8 @@
         <x-section image="images/175510726.jpg" section="More About Me" title="Who am i? Really.">
             <p class="text-sm my-4 text-gray-300 leading-relaxed"></p>
         </x-section>
-        <x-section class="text-center items-center" section="School Background" title="School I Attend To"
-            description="" description2="">
+        <x-section class="text-center items-center" section="My Competitions" title="Compettion I Attended To">
+            <p class="text-xs my-4 text-gray-400 leading-relaxed text-center">I have none for now :sadge:</p>
         </x-section>
         <x-section section="About This Website" title="This Website is My Personal Space on The Internet"
             description="This website is my own little personal space on the internet. I will try to expand this website based on anything I liked, or trying something new."
