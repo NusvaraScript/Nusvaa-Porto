@@ -2,7 +2,8 @@
 'route' => '#',
 'text' => '',
 'variant' => 'solid',
-'target' => '_self'
+'target' => '_self',
+'class' => ''
 ])
 
 @php
@@ -15,6 +16,6 @@ default => 'leading-relaxed text-blue-500 hover:underline'
 };
 @endphp
 
-<a href="{{ $route }}" target="{{ $target }}" class="{{ $button }}">
+<a href="{{ $route }}" target="{{ $target }}" class="{{ $button }} {{ $class }}">
     {{ $slot->isEmpty() ? $text : $slot }}
 </a>
