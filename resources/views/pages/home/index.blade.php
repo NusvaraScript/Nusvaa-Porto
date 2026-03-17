@@ -12,14 +12,16 @@
         </x-hero>
         <x-section image="images/175510726.jpg" section="About Me"
             title="I'm deeply interested in the growth of technology">
-            <p class="text-sm my-4 text-gray-300 leading-relaxed">My name is Nusvaa, also known as Nusvara. But my real
-                name is Yusuf. I am a 17 y/o high school student and also a developer from Indonesia. I am currently
+            <p class="text-sm my-4 text-gray-300 leading-relaxed">My name is <span class="font-bold">Nusvaa</span>, also
+                known as <span class="font-bold">Nusvara</span>. But my real
+                name is <span class="font-bold">Yusuf</span>. I am a 17 y/o high school student and also a developer
+                from <span class="font-bold">Indonesia</span>. I am currently
                 interested on webdev and machine learning models.</p>
             <p class="text-sm my-4 text-gray-300 leading-relaxed">Outside of tech, I also have other hobbies. Like
                 playing chess, taking random pictures and occasionally try my hand at random sketches.</p>
         </x-section>
-        <x-section class="text-center" section="Skills" title="Tech I work with">
-            <p class="text-sm my-4 text-gray-300 leading-relaxed">Tools and technologies I use across my projects.</p>
+        <x-section class="text-center" section="Skills" title="Tech I work with"
+            description="Tool and technologies I use across my projects.">
             <div class="grid grid-cols-2 md:grid-col-3 lg:grid-cols-4 gap-4">
                 <x-card logo="devicon-html5-plain" title="HTML" description="Markup language."
                     level="Advanced"></x-card>
