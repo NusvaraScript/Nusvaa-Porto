@@ -20,6 +20,7 @@
             <p class="text-sm my-4 text-gray-300 leading-relaxed">Outside of tech, I also have other hobbies. Like
                 playing chess, taking random pictures and occasionally try my hand at random sketches.</p>
         </x-section>
+        <x-chatbox></x-chatbox>
         <x-section class="text-center" section="Skills" title="Tech I work with"
             description="Tool and technologies I use across my projects.">
             <div class="pt-3 grid grid-cols-2 md:grid-col-3 lg:grid-cols-4 gap-4">

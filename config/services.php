@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    // config/services.php
+    'groq' => [
+        'key' => env('GROQ_API_KEY'),
+    ],
 ];
