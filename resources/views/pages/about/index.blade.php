@@ -3,8 +3,7 @@
 @section('content')
 <div class="text-white py-6">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <x-hero title="Who am i?">
-            <p>I dont know, i guess i am a web developer.</p>
+        <x-hero title="Who am i?" description="I dont know, i guess i am a web developer.">
         </x-hero>
         <x-section image="images/175510726.jpg" section="More About Me" title="Who am i? Really.">
             <p class="text-sm my-4 text-gray-300 leading-relaxed">I am a web developer, i dont know what else to say

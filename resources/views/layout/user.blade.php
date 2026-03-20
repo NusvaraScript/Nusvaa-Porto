@@ -59,14 +59,25 @@
                 background-position: 60px 60px;
             }
         }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
     </style>
     @endif
 </head>
 
-<body class="antialiased selection:bg-black">
+<body class="antialiased selection:bg-black text-white">
     {{-- Loading Screen --}}
     <div id="loading-screen" class="fixed inset-0 z-[9999] bg-black flex flex-col items-center justify-center gap-6">
-        <div class="text-4xl font-bold text-white" style="font-family: monospace">
+        <div class="text-4xl font-bold" style="font-family: monospace">
             Nusvaa<span class="text-blue-500 animate-pulse">.</span>
         </div>
 
@@ -92,7 +103,7 @@
             @yield('content')
             @else
             <div class="flex flex-col items-center justify-center min-h-screen text-center px-6 ">
-                <h1 class="text-3xl font-bold text-white mb-2">Work in Progress</h1>
+                <h1 class="text-3xl font-bold mb-2">Work in Progress</h1>
                 <p class="text-gray-400 text-sm">This page is still being work on, stay tuned!</p>
             </div>
             @endif
@@ -124,7 +135,19 @@
     </script>
     <!-- Lucide / Heroicons — untuk UI icons (jauh lebih ringan dari Font Awesome) -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-    <script>lucide.createIcons();</script>
+    <script>
+        lucide.createIcons();
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((e, i) => {
+                if (e.isIntersecting) {
+                    setTimeout(() => e.target.classList.add('visible'), i * 100);
+                }
+            });
+        }, {threshold: 0.1});
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 
 </html>

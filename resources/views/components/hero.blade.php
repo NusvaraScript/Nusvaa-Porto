@@ -1,10 +1,12 @@
 @props([
-'title' => ''
+'title' => '',
+'description' => ''
 ])
 
-<div class="text-white py-6">
+<section class="py-12 reveal">
     <div>
         <h1 class="text-4xl md:text-5xl font-bold">{{ $title }}</h1>
-        <div class="text-lg mt-4">{{ $slot }}</div>
+        <p class="text-lg mt-4">{{ $description }}</p>
+        {{ $slot }}
     </div>
-</div>
+</section>
