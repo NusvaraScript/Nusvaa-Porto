@@ -1,13 +1,13 @@
 @props([
-'type' => 'basic', {{-- Tipe card, ada basic | detail --}}
+'type' => 'basic', // {{-- Tipe card basic detail --}}
 'title' => '',
 'description' => '',
-'logo' => '', {{-- Untuk devicon logo --}}
-'level' => '', {{-- Newbie, Advanced, Intermediate --}}
-'image' => '', {{-- Untuk gambar di tipe project --}}
-'tags' => [], {{-- Tags untuk di tipe project --}}
-'url' => '#', {{-- URL untuk tipe project --}}
-'source' => '#' {{-- Source untuk tipe project --}}
+'logo' => '', // {{-- Untuk devicon logo --}}
+'level' => '', // {{-- Newbie, Advanced, Intermediate --}}
+'image' => '', // {{-- Untuk gambar di tipe project --}}
+'tags' => [], // {{-- Tags untuk di tipe project --}}
+'url' => '#', // {{-- URL untuk tipe project --}}
+'source' => '#' // {{-- Source untuk tipe project --}}
 ])
 
 @php

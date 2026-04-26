@@ -86,7 +86,7 @@
                 if (data.listening_to_spotify && data.spotify) {
                     // Update Data
                     document.getElementById('track-art').src = data.spotify.album_art_url;
-                    document.getElementById('track-name').innerText = data.spotify.track;
+                    document.getElementById('track-name').innerText = data.spotify.song;
                     document.getElementById('track-artist').innerText = data.spotify.artist;
 
                     // Tampilkan container, sembunyikan pesan offline
