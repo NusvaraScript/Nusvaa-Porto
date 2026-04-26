@@ -1,2 +1,3 @@
 @extends('layout.user')
-@section('title', 'Blog')
+@section('title', 'Blog - Nusvaa')
+
