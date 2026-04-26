@@ -133,7 +133,7 @@ This project reflects my:
 📬 Connect With Me
 
 - GitHub: https://github.com/NusvaraScript
-- Portfolio: (Haven't deployed it yet)
+- Portfolio: https://nusvaa.rf.gd
 
 ---
 
